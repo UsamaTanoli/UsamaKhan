@@ -1,0 +1,419 @@
+
+.Important{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgba(4, 60, 243, 0.9) ;
+    padding-left: 60px; 
+    padding-right: 10px;
+}
+
+.Num1,.Num2,.Num3{
+    padding-top: 10px;
+    margin-bottom: -7px;
+}
+.Num1{
+    width: 300px;
+    padding-top: 10px;
+}
+.Num1 ul li{
+
+     display: inline;
+     padding-left: 5px;
+}
+.Num2{
+     width: 600px;
+     padding-left: 60px;
+     color: rgb(245, 245, 245);
+     padding-top: 15px;
+     font-size: 15px;
+    }
+.Num3{  
+     width: 300px;
+     padding-top: 11px;
+}
+.Num3 ul li{
+     list-style-type: none;
+
+}
+.Num3 input{
+
+    padding: 6px;
+    border: 1px solid rgb(134, 134, 134);
+    color:rgb(134, 134, 134) ;
+    font-size: 12px;
+}
+
+
+
+/* 
+ This is the Main2
+This is the Main2 
+ This is the Main2  */   
+
+
+.navigation-bar{
+    padding-top: 15px;
+    margin-left: 150px;
+    z-index: 2;
+
+}
+ .navigation-bar ul{
+    list-style-type: none;
+}
+
+
+.navigation-bar li{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navigation-bar li a{
+    text-decoration: none;
+   color: rgb(26, 25, 25);
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 13px;
+    font-weight: bold;
+}
+ 
+
+.navigation-bar li:hover{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    border-radius: 50px;
+    background-color:rgba(4, 60, 243, 0.9)  ;
+}
+
+.Picture{
+    padding-left: 90px;
+    padding-top: 10px;
+}
+div.Listing{
+    display: none;
+}
+.navigation-bar li:hover div.Listing{
+    padding-top: 17px;
+display: block;
+position: absolute;
+background-color:whitesmoke;
+margin-top: 10px;
+margin-left: -20px;
+width: 200px;
+
+
+}
+.navigation-bar li:hover div.Listing ul li{
+    display: block;
+   margin-left: -40px;
+   border-radius: 0px;
+}
+.Important2{
+    background-color:whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sub-listing{
+    display: none;
+}
+.hoverme:hover .sub-listing{
+    position: absolute;
+    display: block;
+    margin-top: -29px;
+    margin-left: 180px;
+    background-color:whitesmoke ;
+    width: 220px;
+}
+
+.sub-listing-2{
+    display: none;
+}
+.Hidden:hover .sub-listing-2{
+    position: absolute;
+    display: block;
+    margin-top: -29px;
+    margin-left: 180px;
+    background-color:whitesmoke ;
+    width: 330px;
+}
+
+.Hidden:hover .subsublist li:hover{
+    padding-left: 20px;    
+}
+.sub-listing-3{
+    display: none;
+}
+.Hidden:hover .sub-listing-3{
+    position: absolute;
+    display: block;
+    margin-top: -29px;
+    margin-left: 180px;
+    background-color:whitesmoke ;
+    width: 170px;
+}
+
+.sub-listing01{
+    display: none;
+}
+.Hidden-2:hover .sub-listing01{
+    position: absolute;
+    display: block;
+    margin-top: -29px;
+    margin-left: 180px;
+    background-color:whitesmoke ;
+    width: 160px;
+}
+
+#angle{
+    float: right;
+}
+#width{
+    height: 600px;
+}
+.Marquee-Div-1{
+    background-color:rgba(4, 60, 243, 0.9) ;
+    width: 90%;
+    color: rgb(184, 181, 181);
+    padding: 1px;
+    text-transform: capitalize;
+}
+.Marquee-Div{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+}
+.INTRO-DUCTION-DIV{
+    background-color:whitesmoke ;
+   
+
+}
+.Discription{
+    padding-top: 20px;
+    padding-left: 225px;
+    padding-right: 225px;
+    padding-bottom: 70px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    font-size: 17px;
+    color: rgb(61, 60, 60);
+    word-spacing: 1px;
+}
+
+.Duction{
+    color: rgb(26, 49, 13);
+}
+.Intro{
+    color:rgba(13, 34, 102, 0.9) ;
+}
+.introduction{
+    padding-top: 70px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.Investment-Div{
+    background-color:rgba(45, 94, 255, 0.9);
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: -15px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.Investment-Div div{
+    color: cornsilk;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+}
+.Month{
+    font-size: 18px;
+    color: rgba(10, 252, 22, 0.979);
+    font-weight: bolder;
+}
+.Investment-1,.Investment-2,.Investment-3,.Investment-4{
+    width: 320px;
+    padding-left: 60px;
+    padding-top: 40px;
+}
+
+.Total{
+    font-size:55px;
+}
+.Target{
+font-size: 15px;
+font-weight: 900;
+}
+.Courses-Div{
+    background-color: whitesmoke;
+    padding-bottom: 60px;
+}
+.Courses-1{
+    display: flex;
+    flex-wrap: wrap;
+     margin-left: 80px;
+}
+
+.Courses-1-1-color{
+    color:rgba(55, 96, 230, 0.9) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+.Courses-1-1{
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    background-color: white;
+    margin: 20px;
+    width: 360px;
+    box-shadow: 0 0 30px rgb(209, 208, 208);
+}
+.fontsize{
+    font-size: 30px;
+    color:rgba(26, 65, 194, 0.9)  ;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+
+.Mission-Rows{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block{
+    display: inline-block; 
+    padding-left: 30px;
+    color: rgba(4, 60, 243, 0.9) ;
+}
+
+.Mission-Rows-1,.Mission-Rows-2{
+    border: 1px solid rgb(226, 225, 225);
+    width: 400px;
+    background-color: whitesmoke;
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 19px;
+    font-weight: 900;
+    letter-spacing: -2px;
+}
+.Mission-Rows-1{
+    margin-left: 100px;
+}
+.Missions{
+    padding-top: 80px;
+}
+.size{
+    width: 35px;
+}
+.Missions-Events{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+.Missions-2{
+    padding-top: 80px;
+}
+.Marquee-Div-2{
+    height: 250px;
+    width: 250px;
+}
+
+.fontsize2{
+    font-size: 30px;
+    color:#5472c5 ;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 40px;
+}
+
+.Final-Pictures{
+    margin-top: 30px;
+}
+
+.Mission-And-Updates{
+    margin-bottom: 200px;
+}
+
+
+
+
+
+
+
+
+#Adding{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.Details{
+    background-color: rgb(77, 52, 52);
+    display: flex;
+    flex-wrap: wrap;
+}
+.Details-1{
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.separating{
+    padding-left: 8px;
+}
+
+.Head-Office{
+    margin-bottom: 10px;
+}
+
+.Details-2{
+    margin-left: 60px;
+    padding-top: 70px;
+    font-size: 18px;
+    font-weight: 900;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    border-bottom: 1px solid rgb(151, 150, 150);
+    height: 105px;
+    width: 350px;
+}
+.Details-3{
+    margin-top: 70px;
+    margin-left: 40px;
+    padding-bottom: 90px;
+}
+.Details-3-1{
+    font-size: 18px;
+    font-weight: 900;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white; 
+}
+.Details-3-2{
+    margin-top: 20px;
+}
+.Details-3-2 a{
+    padding: 5px;
+}
+.Extra-Information{
+    background-color: rgb(34, 34, 167);
+    font-size: 12.5px;
+    color: rgb(224, 216, 216);
+    padding-left: 100px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+}
+
